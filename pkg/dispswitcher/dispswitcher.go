@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	outInfo = regexp.MustCompile(`([A-Z]{3}[\w\-]+)( \w+)( \w+)?( \d+x\d+)?`)
+	outInfo = regexp.MustCompile(`([a-zA-Z]{3}[\w\-]+)( \w+)( \w+)?( \d+x\d+)?`)
 	outMode = regexp.MustCompile(`\d+x\d+`)
 )
 
